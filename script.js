@@ -45,7 +45,6 @@ const checkInput = ()=>{
     displayDiv.style.color = "white";
     output.textContent = numberToNumeral(userInput);
   }
-  
 }
 
 convertBtn.addEventListener("click", checkInput);
